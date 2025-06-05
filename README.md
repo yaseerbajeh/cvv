@@ -97,6 +97,6 @@ portfolio/
 - **Deployment:** Vercel
 
 
-![Home Page](https://i.ibb.co/Y4pNSnM4/Screenshot-2025-06-05-135316.png)
+
 
 

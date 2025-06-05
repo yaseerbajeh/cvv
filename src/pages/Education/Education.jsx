@@ -1,13 +1,5 @@
 import React, { useState } from "react";
-import EducationLoader from "@/components/ui/EducationLoader";
-import {
-  Star,
-  Award,
-  Calendar,
-  BookOpen,
-  GraduationCap,
-  Trophy,
-} from "lucide-react";
+import { Calendar, BookOpen } from "lucide-react";
 import { motion } from "framer-motion";
 
 const EducationSection = () => {
@@ -15,24 +7,20 @@ const EducationSection = () => {
 
   const educationData = [
     {
-      degree: "Secondary School Certificate (SSC)",
-      school: "Natore Textile Institute",
-      mascot: "📘",
-      year: "2019-2021",
-      achievements: ["GPA: 4.89", "Subject: Science"],
-      skills: ["Mathematics", "Physics", "Chemistry", "Biology"],
+      degree: "Bachelor of Computer Engineering",
+      school: "Uskudar University - Turkiye Istanbul",
+      year: "2021-2025",
       description:
-        "Focused on core science subjects with emphasis on practical laboratory work and scientific research methodologies.",
+        "Thesis on Regularization using noise samples identified by the feature norm for face recognition",
+        mascot: "🎓",
     },
     {
-      degree: "Higher Secondary Certificate (HSC)",
-      school: "Dottopara Model Degree College",
-      mascot: "📗",
-      year: "2021-2023",
-      achievements: ["GPA: 4.25", "Subject: Arts"],
-      skills: ["Literature", "Social Studies", "Economics", "History"],
+      degree: "High School Diploma",
+      school: "Sunlight International School -  Riyadh Saudi Arabia",
+      year: "2006-2018",
       description:
-        "Developed strong analytical and critical thinking skills through comprehensive study of humanities and social sciences.",
+        "Graduated with honors, focusing on science and mathematics",
+      mascot: "🎓",
     },
   ];
 
@@ -122,35 +110,6 @@ const EducationSection = () => {
                 <p className="text-gray-300 text-sm italic border-l-2 border-teal-500 pl-3">
                   {edu.description}
                 </p>
-
-                <div className="space-y-3">
-                  <h4 className="text-sm font-semibold text-white flex items-center gap-2">
-                    <Trophy className="w-4 h-4 text-yellow-500" />
-                    Key Achievements
-                  </h4>
-                  <div className="flex flex-wrap gap-2">
-                    {edu.achievements.map((achievement, i) => (
-                      <div
-                        key={i}
-                        className="px-3 py-1 rounded-full bg-teal-500/10 text-teal-400 flex items-center gap-2 text-sm"
-                      >
-                        <Award className="w-4 h-4" />
-                        <span>{achievement}</span>
-                      </div>
-                    ))}
-                  </div>
-                </div>
-
-                <div className="flex flex-wrap gap-2">
-                  {edu.skills.map((skill, i) => (
-                    <span
-                      key={i}
-                      className="px-2 py-1 text-xs rounded bg-blue-500/10 text-blue-300"
-                    >
-                      {skill}
-                    </span>
-                  ))}
-                </div>
               </div>
             </motion.div>
           ))}

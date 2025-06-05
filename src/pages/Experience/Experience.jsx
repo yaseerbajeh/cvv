@@ -55,27 +55,27 @@ const ExperienceSection = () => {
   const experiences = [
     {
       icon: Network,
-      title: "WordPress Developer",
-      company: "Fiverr",
-      period: "2019 - 2020",
+      title: "E-commerce Operations Manager ",
+      company: "MkanTV Saudi Arabia",
+      period: "2019 - 2025",
       description:
-        "Worked on developing and customizing WordPress websites for clients globally.",
+        "Managed all aspects of an online digital products store, including product creation, marketing, sales, and customer support.",
     },
     {
       icon: Layers,
-      title: "Junior Frontend Developer",
-      company: "Sera Programmer",
-      period: "2021 - 2023",
+      title: "POS System Developer ( Internship )",
+      company: "Tripoli Lebanon - Chender Trading Company",
+      period: "Oct24 - Dec24",
       description:
-        "Assisted in building and optimizing user interfaces with a focus on responsive and interactive designs.",
+        "Developed a local POS system for the company ",
     },
     {
       icon: Code2,
-      title: "JavaScript Developer",
-      company: "OlovJS (Sera Programmer)",
-      period: "2023 - Present",
+      title: "Technician ( Internship )",
+      company: "Riyadh Saudi Arabia - Bassam Trading Company",
+      period: "Aug23 - Sep23",
       description:
-        "Contributed to developing JavaScript libraries and enhancing framework functionalities.",
+        "Data Analysis and Data Entry for the Company’s System ",
     },
   ];
 

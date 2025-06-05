@@ -1,4 +1,4 @@
-import HeroImg from "@/assets/images/hero.jpg";
+import HeroImg from "@/assets/images/yasserjpg.jpg";
 import OlovaLogo from "@/assets/images/olova.png";
 
 export default function About() {
@@ -24,18 +24,16 @@ export default function About() {
 
             <div className="relative space-y-4">
               <p className="text-white">
-                Hello! I'm Nazmul Hossain, a passionate JavaScript developer
+                Hello! I'm Yaseer Albajeh, a passionate Python developer
                 specializing in creating innovative web solutions and
                 user-friendly interfaces.{" "}
-                <span className="font-bold text-white">
-                  As the creator of the OlovaJS UI Framework
-                </span>
-                , I'm dedicated to simplifying development workflows.
+                
+                ,
               </p>
               <p className="text-white">
                 My focus is on making web development faster, easier, and
                 accessible to all developers. Currently, I'm expanding into
-                backend development to grow as a full-stack developer and create
+                front end development to grow as a full-stack developer and create
                 seamless, robust web applications.
               </p>
 
@@ -44,25 +42,14 @@ export default function About() {
                   <p className="text-white">
                     I'm a lifelong learner and innovator, driven by a desire to
                     contribute to the developer community with new ideas and
-                    tools that deliver real value. As the creator of OlovaJS,
-                    I'm pushing the boundaries of JavaScript frameworks to
-                    empower developers worldwide.
+                    tools that deliver real value. 
                   </p>
 
                   <div className="mt-6 space-y-3">
                     <cite className="block font-medium text-white">
-                      Nazmul Hossain, Creator of
+                      Yaseer Albajeh, Computer Engineer
                     </cite>
-                    <div className="flex items-center gap-2">
-                      <img
-                        className="h-5 w-fit"
-                        src={OlovaLogo}
-                        alt="Olova Logo"
-                        height="20"
-                        width="auto"
-                      />
-                      <span className="text-white">OlovaJS</span>
-                    </div>
+                    
                   </div>
                 </blockquote>
               </div>
